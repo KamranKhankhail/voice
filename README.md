@@ -172,6 +172,7 @@ class VoiceTest extends Component {
 | Voice.removeAllListeners()           | Cleans/nullifies overridden `Voice` static methods.                                                                                                                     | Android, iOS |
 | Voice.isRecognizing()                | Return if the SpeechRecognizer is recognizing.                                                                                                                          | Android, iOS |
 | Voice.getSpeechRecognitionServices() | Returns a list of the speech recognition engines available on the device. (Example: `['com.google.android.googlequicksearchbox']` if Google is the only one available.) | Android      |
+| Voice.getSupportedLocales() | Returns list of locales, supported by voice recognition engine | iOS | 
 
 <h2 align="center">Events</h2>
 
